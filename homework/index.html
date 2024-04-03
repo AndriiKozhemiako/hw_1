@@ -14,7 +14,7 @@
         <div id="content" role="main">
           <main><h1><b>HTML Elements</b></h1></main>
           <hr>
-          <a href="#"><b>Home</b></a>  &nbsp  &nbsp  &nbsp  <a href="#"><b>Headers</b></a> &nbsp  &nbsp  &nbsp <a href="#"><b>Table</b></a> &nbsp  &nbsp  &nbsp <a href="#"><b>List</b></a> &nbsp  &nbsp  &nbsp <a href="#"><b>Text formals</b></a> &nbsp  &nbsp  &nbsp <a href="#"><b>Block quotes</b></a>
+          <a href="#"><b>Home</b></a>  &nbsp;  &nbsp;  &nbsp;  <a href="#"><b>Headers</b></a> &nbsp;  &nbsp;  &nbsp; <a href="#"><b>Table</b></a> &nbsp;  &nbsp;  &nbsp; <a href="#"><b>List</b></a> &nbsp;  &nbsp;  &nbsp; <a href="#"><b>Text formals</b></a> &nbsp;  &nbsp;  &nbsp; <a href="#"><b>Block quotes</b></a>
           <hr>
           <p> Pay attention to hi tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one hi on the page, and it is commonly used inside header</p>
           <h2>Header 2</h2>
@@ -57,9 +57,63 @@
           <ul>
             <li>List item 1</li>
             <li>List item 2</li>
+            <ul>
             <li>Some nested list item 1</li>
+            </ul>
             <li>List item 3</li>
           </ul>
+          <p><h2>Ordered List</h2></p>
+          <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <ol type="A"><li>Some nested list item 1</li></ol>
+            <li>List item 3</li>
+          </ol>
+          <p><h3>Definition List</h3></p>
+          <b>defines terms 1</b>
+          <p>description 1</p>
+          <b>defines terms 2</b>
+          <p>description 2</p>
+          Details<details>bebebubu<summary>HTML</summary></details>
+          <hr>
+          <p><h2>Text Formats</h2></p>
+          <p><h3>Article Text</h3></p>
+          <article>
+            <header>
+              <h2>Article Title</h2>
+            </header>
+            <p><h3>Article description</h3></p>
+          </article>
+          <h2>Preformatted Text</h2>
+          <pre>
+ <b>Text</b>
+    in a <b>pre</b> element
+     is displayed in a fixed-width
+  font, and it preserves
+  both        spaces and
+     line breaks
+          </pre>
+          </pre><p><h2>Code</h2></p>
+          <pre>
+          <p><code>.wrapped {<br>&nbsp;&nbsp;display: flex;<br>&nbsp;&nbsp;vertical-align: middle;<br>&nbsp;&nbsp;justify-content: center;<br>}</code></p>
+          </pre>
+          <p><h2>Blockquotes</h2></p>
+          <p>Let's keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+          <blockquote>
+            <p>"If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago."<br><a href="#">Elon Mask</a></p>
+          </blockquote>
+          <hr>
+          <form>
+            <lable>First name:</lable>
+            <input type="text" name="login"><br>
+            <lable>Surname:</lable>
+            <input type="text" name="login"><br>
+            <lable>Email:</lable>
+            <input type="text" name="login"><br>
+            <label></label>
+            <h1><text></text></h1>
+            <h1><input type = "submit" name = "submit" value = "Submit"></h1>
+          </form>
         </div>
       </div>
     </div>
